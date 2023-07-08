@@ -1,0 +1,176 @@
+/* to import the css is  "selector" & "Style properties" */
+
+/* to use the css we attribute=style */
+
+/* p{
+    color: #900;
+    background-color: bisque;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+}
+
+h1{
+    color: blueviolet;
+    background-color: darkblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:medium;
+}
+ 
+h2,h3{  TYPE SELECTOR
+    color: blueviolet;
+    background-color: darkblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:medium;
+}
+
+body{
+    background-color: rgb(183, 0, 255);
+} */
+
+/*  UNIVERSAL SELECTOR
+*{
+    color: #ff00aa;
+} */
+
+/* for stric bound we use tag.classname in css  */
+
+/* p.para{
+    color: brown;
+}
+
+#secondHead{
+    color: darkorange;
+    font-family: monospace;
+}
+
+#name{
+    color: darkred;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+} */
+
+
+/* naming Concension 
+    1.Pascal Case
+    2.CamelCase
+    3.ben modulation
+*/
+
+/* ben modulation
+combination of two or more words 
+    firstname__secondname
+*/
+
+/* Camel Case 
+    myPara
+*/
+
+/* Pascal Case
+    Assignment self learning
+
+*/
+
+
+/* #myList{
+    border: 1px dotted red;
+} */
+
+/* for child selector
+    parent > child {}
+
+*/
+
+
+/* ul>li{
+    color:rgb(212, 209, 28);
+}
+
+p>span{
+    color:red;
+}
+
+p a{
+    color: brown;
+}
+
+#saeed a {
+    color: cadetblue;
+} */
+
+/* adjacent sibling selector
+
+    parent+sibling{}
+    
+*/
+
+
+/* 
+
+3 pages hpme,about,contact
+
+h1,2para
+h1{color;green/red}
+p{color:red/green}
+
+*/
+
+/* h1{
+    color: yellow;
+    background-color: rgb(70, 37,100);
+} */
+
+
+/* assignment ph scale */
+
+/* body{
+    background-image:url("C:\Users\desai\OneDrive\Pictures\Ai images\DreamShaper_v5_Angry_Ultra_Instinct_kakarot_Anime_Character_Dr_0 (1).jpg");
+    background-color: rgb(221, 40, 212);
+} */
+
+
+/* p{
+    font-size: larger;
+    font-weight: bold;
+    font-style: normal; */
+    /* text-transform: capitalize; */
+    /* text-transform: uppercase;
+    text-align:center;  */
+    /* text-decoration:underline; */
+    /* line-height: 30px;
+    letter-spacing: 5px;
+    word-spacing: 20px;
+} */
+
+/* horizontal = row */
+/*  vertical = column */
+
+/* four position
+top
+right
+left
+bottom
+jis div ko position dene ho usko position absolute dangae 
+by default position abosulte on body
+position relative 
+gap porperty always aply on flex property div*/
+
+
+/* overflow-y = hidden
+overflow-y = scroll
+ */
+
+.scoller{
+    border: 1px solid blue;
+    /* height: 50px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+
+    /* overflow-y: scroll; */
+}
+
+ .scoller div {
+    width: 100px;
+    border: 1px solid black;
+
+ }
